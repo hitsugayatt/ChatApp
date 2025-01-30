@@ -8,12 +8,13 @@ const Title = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      <span className="text-cyan-400">Cyber</span>
-      <span className="text-pink-500">Chat</span>
-      <span className="text-cyan-400"> AI</span>
+      <span className="text-cyan-400">Smart Conversations, </span>
+      <span className="text-pink-500">Powered by</span>
+      <span className="text-cyan-400"> You and Gemini</span>
     </motion.h1>
   )
 }
 
 export default Title
 
+// Smart Conversations, Powered by You and AI
