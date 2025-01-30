@@ -1,0 +1,43 @@
+.input-area {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .message-input {
+    flex: 1;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 25px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .message-input:focus {
+    border-color: #3498db;
+  }
+  
+  .send-button {
+    margin-left: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+  }
+  
+  .send-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .send-button:active {
+    transform: scale(0.98);
+  }
+  
+  

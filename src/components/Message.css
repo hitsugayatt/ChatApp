@@ -1,0 +1,54 @@
+.message {
+  max-width: 70%;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border-radius: 18px;
+  animation: slideIn 0.3s ease-out;
+}
+
+.message strong {
+  font-weight: 600;
+  position: relative;
+  display: inline;
+}
+
+.message em {
+  font-style: italic;
+  position: relative;
+  display: inline;
+  border-bottom: 1px dotted currentColor;
+}
+
+.user {
+  align-self: flex-end;
+  background-color: #3498db;
+  color: white;
+  margin-left: auto;
+}
+
+.ai {
+  align-self: flex-start;
+  background-color: white;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message.ai strong {
+  text-shadow: 0 0 8px rgba(34, 211, 238, 0.3);
+}
+
+.message-content {
+  word-wrap: break-word;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
