@@ -4,6 +4,7 @@ import ChatWindow from "./components/ChatWindow"
 import BackgroundAnimation from "./components/BackgroundAnimation"
 import Title from "./components/Title"
 import "./App.css"
+import GradientBackground from "./components/GradientBackground.jsx"
 
 function App() {
   const [showChat, setShowChat] = useState(false)
